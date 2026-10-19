@@ -42,6 +42,10 @@ On GitHub, open the ZIP link above and use **Download raw file**, then save it t
 
 **💾 Workshop save convention:** future terminal-first builds prefer `-o name.txt` to save explicit plain-text findings. [SUBDOMINATRIX has the implemented example](https://github.com/Hellfire13666/glitchbyte-phantom-labs/blob/main/docs/tool-showcases/SUBDOMINATRIX.md). The original RosieRiot launcher has its *own* existing flags and does not automatically gain `-o` just from this documentation.
 
+## 💾 Easy Save throughout Phantom Labs
+
+**[Easy Save for Every Tool](https://github.com/Hellfire13666/glitchbyte-phantom-labs/blob/main/docs/EASY_SAVE_ALL_TOOLS.md)** now documents two spellings, `-o name.txt` and `--o name.txt`. For existing standard terminal commands including Findomain and Subfinder, use the [Phantom Easy Save shared runner](https://github.com/Hellfire13666/glitchbyte-phantom-labs/blob/main/scripts/phantom_easy_save.py) to save printed output while seeing real feedback. SUBDOMINATRIX already supports both spellings **natively** for deduplicated hostnames. The original RosieRiot engine and external tools have their own flags; do not pass `--o` directly to them unless their `--help` confirms it. The runner cannot disable their built-in report saving.
+
 ## 🔧 Findomain companion (optional, external)
 
 Our Ubuntu lab confirmed that a separately installed Findomain successfully printed public-source domain candidates in 23 seconds. The full [Findomain beginner Simple / Medium / Extra guide](https://github.com/Hellfire13666/glitchbyte-phantom-labs/blob/main/docs/integrations/FINDOMAIN_LIVE_CHECK.md) explains `findomain -t example.com`, optional saving, and path troubleshooting. **This is not a claim that Findomain is bundled with or executed by the original RosieRiot engine.**

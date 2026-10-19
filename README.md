@@ -17,6 +17,8 @@
 
 **🌈 WORKSHOP PUBLISHING STANDARD:** Every upcoming RosieRiot component or upgrade follows [Build → Run → Publish → Vault](https://github.com/Hellfire13666/glitchbyte-phantom-labs/blob/main/docs/BUILD_PUBLICATION_STANDARD.md): unique source/art, visible honest intel, Firefox only when implemented, tested Simple/Medium/Extra examples, source and setup doors, and verified Backup HQ links. The original release's automatic reports and buffering remain as currently documented until explicitly upgraded.
 
+**🌹 Related workstation upgrade:** [SUBDOMINATRIX terminal-only live signal](https://github.com/Hellfire13666/glitchbyte-phantom-labs/blob/main/docs/tool-showcases/SUBDOMINATRIX.md) now supports colored public-source findings without report files, while preserving its Firefox export option. CI checks passed; user-side live confirmation is pending. SUBDOMINATRIX remains a separate tool.
+
 ## 🚀 About
 RosieRiot Overdrive is a modular launcher for offline demonstrations and authorized reconnaissance with colorful terminal feedback and organized reports. Its external tools are optional; they are not installed automatically.
 
@@ -38,7 +40,7 @@ On GitHub, open the ZIP link above and use **Download raw file**, then save it t
 
 ## 🔧 Findomain companion (optional, external)
 
-Our Ubuntu lab confirmed that a separately installed Findomain successfully printed public-source domain candidates in 23 seconds. The full [Findomain beginner Simple / Medium / Extra guide](https://github.com/Hellfire13666/glitchbyte-phantom-labs/blob/main/docs/tool-showcases/FINDOMAIN_LIVE_CHECK.md) explains `findomain -t example.com`, optional saving, and path troubleshooting. **This is not a claim that Findomain is bundled with or executed by the original RosieRiot engine.**
+Our Ubuntu lab confirmed that a separately installed Findomain successfully printed public-source domain candidates in 23 seconds. The full [Findomain beginner Simple / Medium / Extra guide](https://github.com/Hellfire13666/glitchbyte-phantom-labs/blob/main/docs/integrations/FINDOMAIN_LIVE_CHECK.md) explains `findomain -t example.com`, optional saving, and path troubleshooting. **This is not a claim that Findomain is bundled with or executed by the original RosieRiot engine.**
 
 ## 🛠️ Ubuntu install
 

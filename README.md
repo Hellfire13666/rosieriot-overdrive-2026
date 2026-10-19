@@ -15,6 +15,8 @@
 
 </div>
 
+**🌈 WORKSHOP PUBLISHING STANDARD:** Every upcoming RosieRiot component or upgrade follows [Build → Run → Publish → Vault](https://github.com/Hellfire13666/glitchbyte-phantom-labs/blob/main/docs/BUILD_PUBLICATION_STANDARD.md): unique source/art, visible honest intel, Firefox only when implemented, tested Simple/Medium/Extra examples, source and setup doors, and verified Backup HQ links. The original release's automatic reports and buffering remain as currently documented until explicitly upgraded.
+
 ## 🚀 About
 RosieRiot Overdrive is a modular launcher for offline demonstrations and authorized reconnaissance with colorful terminal feedback and organized reports. Its external tools are optional; they are not installed automatically.
 

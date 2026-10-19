@@ -17,6 +17,8 @@
 
 **🌈 WORKSHOP PUBLISHING STANDARD:** Every upcoming RosieRiot component or upgrade follows [Build → Run → Publish → Vault](https://github.com/Hellfire13666/glitchbyte-phantom-labs/blob/main/docs/BUILD_PUBLICATION_STANDARD.md): unique source/art, visible honest intel, Firefox only when implemented, tested Simple/Medium/Extra examples, source and setup doors, and verified Backup HQ links. The original release's automatic reports and buffering remain as currently documented until explicitly upgraded.
 
+**New 2026-10-19 companion correction:** [SUBDOMINATRIX CLI-timeout / Findomain fix](https://github.com/Hellfire13666/glitchbyte-phantom-labs/blob/main/docs/tool-showcases/SUBDOMINATRIX.md) separates API and CLI deadlines, streams valid candidates, and preserves partial results. Python CI passed, user-side retest pending. This does not alter the original RosieRiot program.
+
 **🌹 Related workstation upgrade:** [SUBDOMINATRIX terminal-only live signal](https://github.com/Hellfire13666/glitchbyte-phantom-labs/blob/main/docs/tool-showcases/SUBDOMINATRIX.md) now supports colored public-source findings without report files, while preserving its Firefox export option. CI checks passed; user-side live confirmation is pending. SUBDOMINATRIX remains a separate tool.
 
 ## 🚀 About

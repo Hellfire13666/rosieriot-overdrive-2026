@@ -43,6 +43,53 @@ bash "$HOME/PhantomLabsLaunchers/rosieriot_overdrive_2026/install_missing_stack.
 bash "$HOME/PhantomLabsLaunchers/rosieriot_overdrive_2026/verify_stack.sh"
 ```
 
+## 🌈 Beginner run recipes | SIMPLE · MEDIUM · EXTRA
+
+**Start here:** [GlitchByte's full beginner runtime cookbook](https://github.com/Hellfire13666/glitchbyte-phantom-labs/blob/main/docs/BEGINNER_RUNTIME_RECIPES.md). These are **actual command examples**, not new `--simple`/`--medium`/`--extra` flags.
+
+### 🌱 SIMPLE | See real public-source hostnames
+
+Requires separately installed Subfinder. Runs passive-source discovery, printing candidate hostnames as results arrive; no report file is requested:
+
+```bash
+export PATH="$HOME/go/bin:$PATH"
+subfinder -d example.com -silent
+```
+
+### ⚡ MEDIUM | Colorful workshop live launcher
+
+This is the newer passive-only launcher **if you already installed it locally** as part of the workshop. The new v3 file is **not bundled with the original published ZIP**. Check for it first:
+
+```bash
+LAB="$HOME/PhantomLabsLaunchers/rosieriot_overdrive_2026"
+if [ -f "$LAB/run_rosieriot_live.sh" ]; then
+    bash "$LAB/run_rosieriot_live.sh" example.com
+else
+    echo "The separate local v3 launcher is not installed; use SIMPLE or the original engine below."
+fi
+```
+
+This local upgraded wrapper is designed to print public-source findings, timeouts and a summary without saving unless requested. GitHub visitors must not assume it exists after installing the original ZIP.
+
+### 🔥 EXTRA | The published original engine, authorized scope
+
+The committed Python engine supports bounded `subfinder,dnsx,httpx` operations; DNS and HTTP probes require a target you own or are explicitly authorized to assess:
+
+```bash
+LAB="$HOME/PhantomLabsLaunchers/rosieriot_overdrive_2026"
+python3 -u "$LAB/rosieriot_overdrive.py" \
+  --target YOUR-AUTHORIZED-DOMAIN.example \
+  --live --authorized --color always \
+  --modules subfinder,dnsx,httpx \
+  --max-hosts 20 --timeout 40
+```
+
+**Know the original tool's limits:** it captures module output until completion rather than streaming each hostname, and it **automatically saves reports** under `~/RosieRiotReports` by default. The local v3 passive launcher has different behavior; don't confuse them. `naabu`, `nuclei` and `aquatone` are deliberately excluded from these beginner commands.
+
+**Reading results:** A discovered hostname is only a candidate, not proof of a reachable or owned service. Provider timeouts and partial coverage should be reported clearly. Runtime depends on sources and connectivity, not a guaranteed duration. Firefox is not part of the original engine's documented interface.
+
+---
+
 ### Offline demo
 ```bash
 python3 "$HOME/PhantomLabsLaunchers/rosieriot_overdrive_2026/rosieriot_overdrive.py" \

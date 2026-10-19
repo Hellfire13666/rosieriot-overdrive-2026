@@ -36,6 +36,10 @@ The banner is artwork, not a live status dashboard. Check the actual environment
 
 On GitHub, open the ZIP link above and use **Download raw file**, then save it to `~/Downloads/rosieriot_overdrive_2026.zip`.
 
+## 🔧 Findomain companion (optional, external)
+
+Our Ubuntu lab confirmed that a separately installed Findomain successfully printed public-source domain candidates in 23 seconds. The full [Findomain beginner Simple / Medium / Extra guide](https://github.com/Hellfire13666/glitchbyte-phantom-labs/blob/main/docs/tool-showcases/FINDOMAIN_LIVE_CHECK.md) explains `findomain -t example.com`, optional saving, and path troubleshooting. **This is not a claim that Findomain is bundled with or executed by the original RosieRiot engine.**
+
 ## 🛠️ Ubuntu install
 
 ```bash
